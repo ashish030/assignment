@@ -1,3 +1,4 @@
+/*contact.css*/
 h1{
 	margin: 0px;
 }
@@ -6,10 +7,9 @@ p{
 }
 .main{
 	line-height: 50px;
+	background: white;
 }
-
-h3{
-		
+h3{	
 		float: right;
 		
 	}
@@ -20,6 +20,103 @@ h3{
 	p{
 		line-height: 30px;
 	}
+.main1{
+	width: 1200px;
+}
+/*home.css*/
+
 body{
-	width: 1000px;
+	padding: 0;
+	margin: 0;
+	background: dimgray;
+}
+html{
+	font-family: "helvetica neue", sans-serif;
+}
+.navi{
+	
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	background: black;
+}
+.into{
+	float: right;
+}
+.menu{
+	margin: 0 30px 0 0;
+}
+.menu a {
+	clear: right;
+	text-decoration: none;
+	color: white;
+	margin: 0 10px;
+	line-height: 70px;
+	border: 1px solid transparent;
+}
+a.active,a:hover{
+	border: 1px solid white;
+	transition: .5s;
+}
+span{
+	color: blue;
+
+}
+label{
+	margin: 0 40px 0 0;
+	font-size: 26px;
+	line-height: 70px;
+	display: none;
+	flex: right;
+	width: 26px;
+	color: white;
+
+}
+#toggle{
+	display: none;
+}
+@media only screen and (max-width: 500px){
+	label{
+		display: block;
+		cursor: pointer;
+	}
+	.menu{
+		text-align: center;
+		width: 100%;
+		display: none;
+	}
+	.menu a{
+		display: block;
+		
+		margin: 0;
+		background: black;
+	}
+	#toggle:checked + .menu{
+		display: block;
+	}
+	a.active,a:hover{
+	border: none;
+	color: blue;
+}
+.intro{
+	padding: 205px;
+	margin-left: -205px;
+
+}
+.into{
+	float: left;
+
+}
+.welcome{
+	margin-top: -205px;
+}
+.main1{
+	width: 800px;
+}
+.test{
+	padding: 270px;
+	margin-left: -270px;
+}
+
+
 }
