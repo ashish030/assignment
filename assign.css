@@ -1,6 +1,4 @@
-h1{
-	margin: 0px;
-}
+
 p{
 	line-height: 10px;
 }
@@ -197,6 +195,7 @@ ol{
 .experience h1{
 	background-color: white;
 	text-align: center;
+	margin: 0px;
 }
 .module h1{
 	background-color: white;
@@ -280,4 +279,33 @@ ol{
 	border: solid;
 	border-width: 80px;
 	border-color: skyblue;
+}
+.validate{
+	text-align: center;
+	background-color: yellow;
+}
+.Validation{
+	text-align: center;
+	font-size: 20px;
+	border: solid;
+	border-width: 80px;
+	border-color: skyblue;
+}
+.Validation h3{
+	text-align: center;
+
+}
+.code_reference{
+	background-color: yellow;
+	text-align: center;
+}
+.refer{
+	text-align: center;
+}
+.refers{
+	background-color: yellow;
+	text-align: center;
+}
+.place{
+	text-align: center;
 }
