@@ -41,10 +41,11 @@ body{
 	font-size: 25px;
 }
 .welcome{
-	padding: 50px;
+	padding-top: 250px;
 	font-size: 30px;
 }
 .intro{
+	float: left;
 	padding: 50px;
 }
 .menu{
@@ -101,16 +102,8 @@ label{
 	border: none;
 	color: blue;
 }
-.intro{
-	padding: 205px;
-	margin-left: -205px;
-
-}
-.into{
-	float: left;
-}
 .welcome{
-	margin-top: -205px;
+	padding: 50px;
 }
 .main1{
 	width: 800px;
@@ -118,6 +111,9 @@ label{
 .test{
 	padding: 270px;
 	margin-left: -270px;
+}
+.rep{
+	background-color: skyblue;
 }
 }
 
@@ -222,12 +218,11 @@ ol{
 	text-align: center;
 }
 .home_img{
-
+	float: left;
 	font-size: 30px;
 }
 .home_img p{
-	text-align: right;
-	margin-top: -400px;
+	float: right;
 }
 .home_page{
 	text-align: center;
