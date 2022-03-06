@@ -112,9 +112,7 @@ label{
 	padding: 270px;
 	margin-left: -270px;
 }
-.rep{
-	background-color: skyblue;
-}
+
 }
 
 .image{
@@ -225,6 +223,8 @@ ol{
 	float: right;
 }
 .home_page{
+	padding: 300px;
+	padding-bottom: 0;
 	text-align: center;
 	font-size: 20px;
 	border: solid;
@@ -238,6 +238,9 @@ ol{
 .portfolio_img{
 	
 	text-align: center;
+}
+.rep{
+	background-color: skyblue;
 }
 .portfolio_page{
 	text-align: center;
